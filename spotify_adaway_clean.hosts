@@ -126,3 +126,115 @@
 0.0.0.0 ds.serving-sys.com
 0.0.0.0 spotify.deliveryengine.adswizz.com
 0.0.0.0 spotify.demdex.net
+# =====================================================================
+#  Spotify Reklam Engelleme - Agresif Host Listesi
+#  AdAway "Hosts sources" (yerel dosya) icin hazirlanmistir
+# =====================================================================
+#
+# NOT: Spotify'in gercek muzik akisi / oturum acma altyapisi (accesspoint,
+# spclient, audio-sp-*, weblb, msproxy vb.) BILEREK disarida birakildi.
+# Bunlari eklemek Spotify'i tamamen calismaz hale getirir - bu dosya
+# sadece reklam ve reklam-izleme sunucularini hedefler.
+
+# ---- Spotify'in kendi reklam / reklam-analitik sunuculari ----
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 adgen.spotify.com
+0.0.0.0 adgen-dev.spotify.com
+0.0.0.0 adsgtm.spotify.com
+0.0.0.0 adsgtm-dev.spotify.com
+0.0.0.0 adsgtm-sandbox.spotify.com
+0.0.0.0 adstudio.spotify.com
+0.0.0.0 adstudio-assets.scdn.co
+0.0.0.0 admocker.spotify.com
+0.0.0.0 ad-proxy.spotify.com
+0.0.0.0 adjust-callback.spotify.com
+0.0.0.0 ads-akp.spotify.com
+0.0.0.0 ads-br.spotify.com
+0.0.0.0 ads-ca.spotify.com
+0.0.0.0 ads-fa.spotify.com
+0.0.0.0 ads-fa.cdn.spotify.com
+0.0.0.0 ads-jp.spotify.com
+0.0.0.0 ads-pt.spotify.com
+0.0.0.0 ads-uk.spotify.com
+0.0.0.0 ads-us.spotify.com
+0.0.0.0 ads-sp-ash.cdn.spotify.com
+0.0.0.0 ads-sp-lon.cdn.spotify.com
+0.0.0.0 ads-sp-sto.cdn.spotify.com
+0.0.0.0 heads-fa.spotify.com
+0.0.0.0 heads-fab.spotify.com
+0.0.0.0 heads-fac.spotify.com
+0.0.0.0 keyframes-fa.cdn.spotify.com
+0.0.0.0 partneraudiences.spotify.com
+0.0.0.0 pixel.spotify.com
+0.0.0.0 pixel1.spotify.com
+0.0.0.0 pixel2.spotify.com
+0.0.0.0 pixel-static.spotify.com
+0.0.0.0 spotify.deliveryengine.adswizz.com
+0.0.0.0 spotify.demdex.net
+0.0.0.0 spotify.c3metrics.com
+
+# ---- BONUS: Spotify telemetri/analitik (reklam degil, ama "agresif" icin) ----
+# Oynatmayi etkilemez, sadece kullanim/hata verisi gondermeyi keser.
+0.0.0.0 analytics.spotify.com
+0.0.0.0 analytics-classic.spotify.com
+0.0.0.0 analytics-preview.spotify.com
+0.0.0.0 log.spotify.com
+0.0.0.0 log2.spotify.com
+0.0.0.0 crashdump.spotify.com
+0.0.0.0 datasharing.spotify.com
+
+# ---- Google reklam agi (DoubleClick / AdSense / AdMob) ----
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 googleadservices.com
+0.0.0.0 google-analytics.com
+0.0.0.0 admob.com
+0.0.0.0 ads.admob.com
+0.0.0.0 2mdn.net
+0.0.0.0 s0.2mdn.net
+
+# ---- Diger reklam borsalari / SDK'lar ----
+0.0.0.0 adnxs.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 secure.adnxs.com
+0.0.0.0 pubmatic.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 smaato.net
+0.0.0.0 rubiconproject.com
+0.0.0.0 beacon-nf.rubiconproject.com
+0.0.0.0 adform.net
+0.0.0.0 track.adform.net
+0.0.0.0 spotxchange.com
+0.0.0.0 event.spotxchange.com
+0.0.0.0 gumgum.com
+0.0.0.0 rtb.gumgum.com
+0.0.0.0 adk2x.com
+0.0.0.0 jumptap.com
+0.0.0.0 fastclick.net
+0.0.0.0 tune.com
+0.0.0.0 everesttech.net
+0.0.0.0 rtd-tm.everesttech.net
+
+# ---- Reklam olcumleme / izleme ----
+0.0.0.0 adjust.com
+0.0.0.0 app.adjust.com
+0.0.0.0 moatads.com
+0.0.0.0 mixpanel.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 comscore.net
+0.0.0.0 comscore.org
+0.0.0.0 scorecardresearch.com
+0.0.0.0 doubleverify.com
+0.0.0.0 tps.doubleverify.com
+0.0.0.0 videoamp.com
+0.0.0.0 usersync.videoamp.com
+0.0.0.0 tidaltv.com
+0.0.0.0 sync.tidaltv.com
